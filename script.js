@@ -11,6 +11,11 @@ function createGrid(gridNum) {
             rows.appendChild(cells).className = 'gridCell';
         }
     }
-}
 
-createGrid(16)
+};
+
+createGrid(16);
+gridSquare = document.querySelector('.gridCell');
+gridSquare.addEventListener('mouseover', () => {
+    console.log('IT WORKS')
+})
