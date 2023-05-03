@@ -1,0 +1,17 @@
+#grid {
+    flex-flow: column;
+    width: fit-content;
+    height: fit-content;
+    border: 3px solid black;
+}
+
+.gridRow {
+
+    display: flex;
+}
+
+.gridCell {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black
+}
