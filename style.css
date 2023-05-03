@@ -1,5 +1,8 @@
 #grid {
     flex-flow: column;
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
     width: fit-content;
     height: fit-content;
     border: 3px solid black;
