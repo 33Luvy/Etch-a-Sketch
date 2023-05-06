@@ -15,7 +15,7 @@ function createGrid(gridNum) {
 };
 
 createGrid(16);
-gridSquare = document.querySelector('.gridCell');
-gridSquare.addEventListener('mouseover', () => {
-    console.log('IT WORKS')
-})
+gridSquare = document.querySelectorAll('.gridCell').forEach(elem => elem.addEventListener("mouseover",
+() => {
+   console.log('IT WORKS') 
+}));
