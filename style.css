@@ -19,6 +19,10 @@
     border: 1px solid black
 }
 
+.CellEnabled {
+    background-color: black;
+}
+
 body {
     background-color: purple;
 }
